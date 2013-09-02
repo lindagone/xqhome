@@ -1,0 +1,103 @@
+/*
+
+	Theme Name: Kiddo
+	Theme URI: http://antonibotev.com/
+	Description: A powerful kids theme
+	Author: Antoni Sinote Botev
+	Author URI: http://antonibotev.com
+	
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	
+	Version: 1.1
+	
+	Designed by Antoni Sinote Botev 
+	All files, unless otherwise stated, are released under the GNU General Public License
+	version 3.0 (http://www.gnu.org/licenses/gpl-3.0.html)
+
+-----------------------------------------------------------------------------------
+
+/*--------------------------------------------------------------------------------*/
+
+/* Skin 3
+--------------------------------------------------------------------------------- */
+	
+/*--------------------------------------------------------------------------------*/
+
+/* 3 - Head & Prime Navigation
+--------------------------------------------------------------------------------- */
+
+html {
+	background-color:#5c8a80;
+	background-image:url(images/v3/bg-tile.jpg);
+}
+
+body {
+	background-image:url(images/v3/bg-top-tile.jpg);
+}
+/*
+#prime-nav {
+	background-image:url(images/v3/prime-nav-bg-tile.png);
+}
+
+#left-primenav-bg {
+	background-image:url(images/v3/left-primenav-bg.png);
+}
+
+#right-primenav-bg {
+	background-image:url(images/v3/right-primenav-bg.png);
+}*/
+
+#top-bg {
+	background-image:url(images/v3/stars-top-bg.png), url(images/v3/top-left-bg.png), url(images/v3/top-right-bg.png), url(images/v3/right-tile-bg.png), url(images/v3/left-tile-bg.png), url(images/v3/top-bg.jpg);
+	background-repeat:no-repeat, no-repeat, no-repeat, repeat-y, repeat-y, no-repeat;
+	background-position:center top, left top, right top, right top, left top, center top;
+}
+
+.bottom-bg {
+	background-image:url(images/v3/bg-bottom-up-bg.png);
+	height:640px;
+}
+
+#wrap-bottom {
+	background-image:url(images/v3/bg-bottom-tile.png);
+}
+
+#footer div.bottom-bg {
+	background-image:url(images/v3/footer-bg-center.jpg), url(images/v3/footer-bg-left.jpg), url(images/v3/footer-bg-right.jpg);
+}
+
+#content {
+	-moz-box-shadow: 0 0 5px #6b6363;
+	-webkit-box-shadow: 0 0 5px #6b6363;
+	box-shadow: 0 0 5px #6b6363;
+}
+/*
+#prime-nav li a {
+	color:#3670ab;
+	-moz-text-shadow: #69cdf5 1px 1px 0px;
+	-webkit-text-shadow: #69cdf5 1px 1px 0px;
+	text-shadow: #69cdf5 1px 1px 0px;
+}
+*/
+
+input.text-input {
+	border: 1px solid #1c6154;
+	background: -webkit-gradient(linear, 0% 0%, 0% 12%, from(#07332a), to(#14453b));
+    background:  -moz-linear-gradient(10% 12% 90deg,#14453b, #07332a);
+	color:#89aba4;
+}
+
+input.text-input:hover {
+	border: 1px solid #2d7568;
+}
+
+input.text-input:focus {
+	border: 1px solid #2d7568;
+	background: -webkit-gradient(linear, 0% 0%, 0% 12%, from(#1e5449), to(#1e5449));
+    background:  -moz-linear-gradient(10% 12% 90deg,#1e5449, #1e5449);
+}
+
+input.submit {
+	background-image:url(images/v3/search-button-bg.png);
+}
