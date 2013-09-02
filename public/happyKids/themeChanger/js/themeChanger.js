@@ -152,7 +152,7 @@ jQuery(document).ready(function($) {
 
 		if (page_config.patterns) {
 			var $pattern_block = $('<div/>').attr('id','patterns');
-			var pattern_change_html = '<span>Pattern:</span>';
+			var pattern_change_html = '<span>边栏图案:</span>';
 			pattern_change_html += '<ul>';
 			$.each(page_config.patterns, function(idx, val) {
 				if ($body.hasClass(val.className)) {
@@ -178,7 +178,7 @@ jQuery(document).ready(function($) {
 
 		if (page_config.colors) {
 			var $color_block = $('<div/>').attr('id','color_schema');
-			var color_change_html = '<span>Color Schemes:</span>';
+			var color_change_html = '<span>背景色:</span>';
 			color_change_html += '<ul>';
 			$.each(page_config.colors, function(idx, val) {
 				if ($body.hasClass(val.className)) {
@@ -231,10 +231,10 @@ jQuery(document).ready(function($) {
 						select_html += '<option value="' + list_val.className + '">' + list_val.name + '</option>';
 					}
 				});
-				$select_element.html(select_html);
+				// $select_element.html(select_html);
 
-				$style_block.append($block_label, $select_element);
-				$theme_control_panel.append($style_block);
+				// $style_block.append($block_label, $select_element);
+				// $theme_control_panel.append($style_block);
 			});
 			$.each(page_config.styles.menuStyle.list, function(idx, val) {
 				menu_style_classes.push(val.className);
@@ -294,14 +294,14 @@ jQuery(document).ready(function($) {
 				setFooterImageColors($('#kids_bottom_container .kids_image_wrapper'));
 				return false;
 			};
-			var $restore_button_wrapper = $('<div/>').addClass('restore_button_wrapper');
-			var $restore_button = $('<a/>').text('Restore').attr('id','restore_button').click(setDefaultsSettings);
-			$restore_button_wrapper.append($restore_button);
-			$theme_control_panel.append($restore_button_wrapper);
-			var $buynow_button_wrapper = $('<div/>').addClass('restore_button_wrapper');
-			var $buynow_button = $('<a/>').text('Buy it for $15').attr('id','restore_button').click(function() { window.location = 'http://themeforest.net/item/happy-kids-multipurpose-html-template/2967230?ref=CreativeWS'; return false; });
-			$buynow_button_wrapper.append($buynow_button);
-			$theme_control_panel.append($buynow_button_wrapper);
+			// var $restore_button_wrapper = $('<div/>').addClass('restore_button_wrapper');
+			// var $restore_button = $('<a/>').text('Restore').attr('id','restore_button').click(setDefaultsSettings);
+			// $restore_button_wrapper.append($restore_button);
+			// $theme_control_panel.append($restore_button_wrapper);
+			// var $buynow_button_wrapper = $('<div/>').addClass('restore_button_wrapper');
+			// var $buynow_button = $('<a/>').text('Buy it for $15').attr('id','restore_button').click(function() { window.location = 'http://themeforest.net/item/happy-kids-multipurpose-html-template/2967230?ref=CreativeWS'; return false; });
+			// $buynow_button_wrapper.append($buynow_button);
+			// $theme_control_panel.append($buynow_button_wrapper);
 			
 		}
 

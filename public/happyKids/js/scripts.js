@@ -144,8 +144,7 @@ jQuery(document).ready(function($) {
 	auto_join_text_ed: "",
 	auto_join_text_ing: "",
 	auto_join_text_reply: "",
-	auto_join_text_url: "",
-	loading_text: "loading tweets..."
+	auto_join_text_url: ""
   });
 
   $(".kids_bottom_container .tweets").tweet({
@@ -157,8 +156,7 @@ jQuery(document).ready(function($) {
 	auto_join_text_ed: "",
 	auto_join_text_ing: "",
 	auto_join_text_reply: "",
-	auto_join_text_url: "",
-	loading_text: "loading tweets..."
+	auto_join_text_url: ""
   });
 
   $("#sidebar .tweets").tweet({
@@ -170,8 +168,7 @@ jQuery(document).ready(function($) {
 	auto_join_text_ed: "",
 	auto_join_text_ing: "",
 	auto_join_text_reply: "",
-	auto_join_text_url: "",
-	loading_text: "loading tweets..."
+	auto_join_text_url: ""
   });
 	  
 /* Twitter --> End */  	  
